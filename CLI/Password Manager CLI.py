@@ -2,6 +2,7 @@
 # Author: Ali Zubair Shah
 # GitHub: https://github.com/K3rNel1 
 # CUI version
+
 def main():
     import random
     import sqlite3
@@ -62,7 +63,7 @@ def main():
                 "INSERT OR REPLACE INTO passwords (key, password) VALUES (?, ?)",
                 (key, password),
             )
-            conn.commit()
+            conn.commit(#Author : Github.com/K3rnel1)
             print("\n Password for", key, "saved")
         else:
             print("\n Invalid Option\n")
