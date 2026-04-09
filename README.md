@@ -59,3 +59,7 @@ This separation highlights how the system can be adapted for different secure da
 * Add search and filtering options
 
 ---
+## Author
+Ali Zubair Shah
+
+- GitHub: https://github.com/K3rNel1 
