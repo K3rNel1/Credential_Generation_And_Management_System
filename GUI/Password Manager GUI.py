@@ -2,6 +2,7 @@
 # Author: Ali Zubair Shah
 # GitHub: https://github.com/K3rNel1 
 #GUI version
+
 import tkinter as tk
 from tkinter import messagebox
 import sqlite3
@@ -140,7 +141,7 @@ def show_generate():
         cursor.execute(
             "INSERT OR REPLACE INTO passwords VALUES (?, ?)",
             (key_entry.get(), pwd_entry.get())
-        )
+        )#Author : Github.com/K3rnel1
         conn.commit()
         refresh_saved()
         messagebox.showinfo("Saved", "Password saved successfully")
