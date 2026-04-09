@@ -1,4 +1,7 @@
-#CUI version
+# Project: Credential Generation and Management System
+# Author: Ali Zubair Shah
+# GitHub: https://github.com/K3rNel1 
+# CUI version
 def main():
     import random
     import sqlite3
