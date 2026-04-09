@@ -1,3 +1,6 @@
+# Project: Credential Generation and Management System
+# Author: Ali Zubair Shah
+# GitHub: https://github.com/K3rNel1 
 #GUI version
 import tkinter as tk
 from tkinter import messagebox
