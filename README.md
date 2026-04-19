@@ -1,3 +1,5 @@
+---
+
 # 🔐 Credential Generation & Management System
 
 A simple and user-friendly application designed to generate, store, and manage user credentials efficiently using a local database.
@@ -12,6 +14,7 @@ This demo simulates real-world usage where:
 * Passwords are generated securely
 * User credentials are stored and managed
 * Data operations include adding, updating, and deleting credentials
+* Sensitive data is protected through encryption mechanisms
 
 ---
 
@@ -27,10 +30,13 @@ This separation highlights how the system can be adapted for different secure da
 ## ✨ Features
 
 * 🔑 Generate strong random passwords
-* 💾 Save custom user passwords
+* 🔐 Encrypt and decrypt stored passwords
+* 🧾 Save custom user credentials
 * ✏️ Update existing credentials
 * 🗑️ Delete unwanted passwords
-* 🖥️ Simple and easy-to-use interface
+* 🔎 Search and filter stored credentials
+* 🔒 Authentication system using a security question
+* 🖥️ Simple CLI interface + modern GUI application (available in Releases)
 * 🗄️ Data stored locally using a database
 
 ---
@@ -39,7 +45,7 @@ This separation highlights how the system can be adapted for different secure da
 
 * **Language:** Python
 * **Database:** SQLite (local `.db` file)
-* **Interface:** CLI/GUI
+* **Interface:** CLI & GUI
 
 ---
 
@@ -47,20 +53,28 @@ This separation highlights how the system can be adapted for different secure da
 
 * Credential generation logic
 * Local database integration
-* Data manipulation (CRUD operations)
-* Secure data handling fundamentals
+* CRUD operations (Create, Read, Update, Delete)
+* Encryption & decryption fundamentals
+* Basic authentication system design
+* Secure data handling practices
 
 ---
 
 ## 🔮 Future Improvements
 
-* Add encryption for stored passwords
-* Implement user authentication system
-* Add search and filtering options
+* Multi-user authentication system
+* Cloud sync support
+* Advanced security layers (hashing + salting)
+* UI/UX enhancements for GUI
 
 ---
-## Author
-Ali Zubair Shah
 
-- GitHub: https://github.com/K3rNel1 
-- Linked In : https://www.linkedin.com/in/ali-zubair-shah-5640033a1/ 
+## 👨‍💻 Author
+
+**Ali Zubair Shah**
+
+* GitHub: [https://github.com/K3rNel1](https://github.com/K3rNel1)
+* LinkedIn: [https://www.linkedin.com/in/ali-zubair-shah-5640033a1/](https://www.linkedin.com/in/ali-zubair-shah-5640033a1/)
+
+---
+
